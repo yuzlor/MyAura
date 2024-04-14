@@ -1,2 +1,0 @@
-# MyAura
-GameplayAbilitySystem_Aura

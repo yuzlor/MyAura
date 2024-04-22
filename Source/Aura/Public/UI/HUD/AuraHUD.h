@@ -14,7 +14,7 @@ struct FWidgetControllerParams;
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable)
 class AURA_API AAuraHUD : public AHUD
 {
 	GENERATED_BODY()

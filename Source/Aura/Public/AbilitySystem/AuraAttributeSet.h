@@ -45,11 +45,11 @@ public:
 	void OnRep_Health(const FGameplayAttributeData& OldHealth) const;
 	
 	UFUNCTION()
-	void OnRep_MaxHealth(const FGameplayAttributeData& MaxOldHealth) const;
+	void OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth) const;
 	
 	UFUNCTION()
 	void OnRep_Mana(const FGameplayAttributeData& OldMana) const;
 	
 	UFUNCTION()
-	void OnRep_MaxMana(const FGameplayAttributeData& MaxOldMana) const;
+	void OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana) const;
 };
